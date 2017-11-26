@@ -1,0 +1,20 @@
+<html>
+    <body>
+ <div class="one">
+  
+<div class="two" ><a href="http://localhost:1234/"> <img class="pic"  src="https://seeklogo.com/images/H/hp-deathly-hallow-snitch-logo-756F9EA6D4-seeklogo.com.png" alt="Avatar"></a></div>
+
+<div class="title1"> <h2><i><em>IDEAL PROTEIN</em></i></h2></div>
+<div class="three">
+
+<div class="four"><li>OUR APPROACH</li></div> 
+<div class="four" (click)="account()"><li>ACCOUNT</li></div>
+<div  class="four" (click)="login()">
+    <span *ngIf = "dataService.title2 === ''"><li>REGISTER</li></span>
+    <span *ngIf = "dataService.title2 !== ''">  <li>  {{dataService.title2}}      </li>  </span>
+
+</div>
+</div>
+</div>
+</body>
+</html>

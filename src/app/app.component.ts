@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
+import { RouterModule, Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -14,18 +14,13 @@ export class AppComponent {
   val="hai";
   showRegister:boolean = false;
 
-  constructor(){
-   
-
+  constructor(private router:Router){
+   this.router.navigateByUrl("mainPage");
+    
   }
 
-  start(){
-    alert("start")
-  }
-
-  funcCall(){
-    window.location.href = "https://www.google.com"
-  }
+  
+  
   manageRegister(){
    this.showRegister=(this.showRegister)?false:true;
     }

@@ -1,3 +1,20 @@
-<p>
-  registration works!
-</p>
+<div  class="register">
+       <div class="signin">  <h2><b><i>SIGN IN</i></b></h2>
+      <div>  <input class="input_text" type="text" placeholder="First Name" [(ngModel)]="dataService.firstName"></div> 
+      <div>  <input  class="input_text" type="text" placeholder="Last Name" [(ngModel)]="dataService.lastName"></div> 
+      <div>  <input  class="input_text" type="text" placeholder="User Name" [(ngModel)]="dataService.userName"></div> 
+        <div>  <input class="input_text" type="text" placeholder="E-mail" [(ngModel)]="dataService.email"></div> 
+                <div>   <input class="input_text" type="password" placeholder="Password" [(ngModel)]="dataService.password"></div> 
+    <button class="submit" (click)="submit1()">Register</button>
+  </div>
+<div class="verticalline"> <hr width="1" size="420"></div>
+<div class="login">
+    <h2><b><i>LOG IN</i></b></h2>
+    
+    <div>  <input class="input_text" type="text" placeholder="First Name" [(ngModel)]="loginCredentials.username" ></div> 
+    <div>   <input class="input_text" type="password" placeholder="Password" [(ngModel)]="loginCredentials.password"></div>
+    <button class="submit" (click)="login()">Login</button>
+</div>
+   
+</div>
+

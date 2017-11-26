@@ -1,0 +1,58 @@
+.body,html{
+    
+     margin: 0px;
+     margin-bottom: 0px;
+     margin-left: -8px;
+     padding: 0;
+      }
+*{
+   margin: 0;
+   margin-bottom: 2px;
+   margin-left: 0;
+   padding: 0;
+   margin-top: 0px;
+   font-family:inherit;
+   
+   
+    font-weight: 300;
+   }
+   .register{
+     
+   margin-left: 30px;
+       width:100%;
+        text-align:center;
+     }
+   .input_text{
+   
+      width:350px;
+       margin-bottom: 20px;
+       margin-left: 0px;
+      padding-right: 50px;
+       
+       padding-bottom: 35px;
+  
+      
+   }
+   .submit{
+      border:1px solid gray;
+      border-radius: 10px;
+      width:100px;
+      padding: 10px;
+     text-align: center;
+  
+  }
+  .login{
+    
+display: inline-block;
+    margin-left: 30px;
+  }
+  .signin{
+    display: inline-block;
+    
+  }
+  .verticalline{
+    display: inline-block;
+    margin-left: 30px;
+  }
+ 
+  
